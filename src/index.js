@@ -32,7 +32,8 @@ module.exports = function(config) {
             get: get(usersRef),
             save: save(usersRef),
             all: all(usersRef)
-        }
+        },
+        firebase: rootRef
     };
 };
 
